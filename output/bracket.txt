@@ -1,13 +1,3 @@
-2017 SILA Bracket Challenge
-
-The main method in the Tournament class will generate a bracket consisting of n rounds based on the teams.csv file. The method will also print out the teams included in each round (the winners from the previous round). The final round will contain a single unbeaten team which will be the overall champion.
-
-The Game class contains methods to determine the winner when given two teams. This determination is made based upon the average shooting percentages of 1pt, 2pt, and 3pt shots for the two teams from the 2016-2017 season. These percentages are averaged with the allowed shooting percentages from the opposing team. The calculated averages are then applied to the average number of shots taken by each team over the course of the 2016-2017 season. Again, the number of each type of shot taken is averaged with the number of shots allowed by the opposing team. Using these metrics a score is determined for the game and the winner selected.
-
-All statistics are contained in .csv files from https://www.teamrankings.com/.
-
-Bracket Output:
-
 ***Round 1***
 Villanova
 Mt St Marys
@@ -73,7 +63,6 @@ Dayton
 Wichita St
 Kentucky
 N Kentucky
-
 ***Round 2***
 Villanova
 Wisconsin
@@ -107,7 +96,6 @@ Kansas St
 UCLA
 Wichita St
 Kentucky
-
 ***Round 3***
 Villanova
 Florida
@@ -125,7 +113,6 @@ N Carolina
 Winthrop
 UCLA
 Wichita St
-
 ***Round 4***
 Villanova
 Duke
@@ -135,16 +122,13 @@ Vermont
 Michigan
 Winthrop
 UCLA
-
 ***Round 5***
 Villanova
 Gonzaga
 Michigan
 UCLA
-
 ***Round 6***
 Gonzaga
 Michigan
-
 ***Round 7***
 Gonzaga
