@@ -1,4 +1,4 @@
-2017 SILA Bracket Challenge
+2017 Bracket Challenge
 
 The main method in the Tournament class will generate a bracket consisting of n rounds based on the teams.csv file. The method will also print out the teams included in each round (the winners from the previous round). The final round will contain a single unbeaten team which will be the overall champion.
 
